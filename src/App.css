@@ -1,0 +1,98 @@
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 211, 90);
+    width: 100%;
+    box-shadow: 0px 2px 2px -1px #000000c7;
+}
+.header .Logo {
+    padding-left: 15px;
+    font-size: 25px;
+}
+.header .Logo h4 {line-height: 2;}
+.header .menu {
+    align-items: flex-end;
+}
+.footer {
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+.footer p {margin: 0; padding: 15px;}
+
+.main__note {
+    margin: 2rem 0rem;
+}
+.main__note .form__part .form-group {
+    margin-bottom: 0;
+}
+.main__note .form__part .btn,
+.main__note .form__part .form-group .form-control {
+    box-shadow: none;
+    color: none;
+    color: #222222;
+    font-weight: 700;
+}
+.main__note .form__part {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #e9e9e9;
+    box-shadow: -3px 3px 4px 0px #0000006e;
+}
+.textarea__note {
+    width: 100%;
+    border: 1px solid #ced4da;
+    height: 90px;
+    padding: 6px 15px;
+    color: #222222;
+}
+.main__note .form__part .btn {
+    background: #c8885d;
+    color: #fff;
+}
+.textarea__note:focus {outline: none;}
+.marginTB {margin: 2rem 0rem;}
+
+.note__block {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 5rem;
+}
+
+.Note__details h6 {
+    color: #222222;
+    font-weight: 700;
+}
+.Note__details {
+    position: relative;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    margin-bottom: 2rem;
+    width: 200px;
+    max-width: 100%;
+    word-break: break-all;
+    box-shadow: -3px 3px 4px 0px #0000006e;
+}
+.Note__details img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -20px;
+    right: -12px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .Note__details {
+        width: 100%;
+    }
+}
